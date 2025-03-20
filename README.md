@@ -32,15 +32,3 @@ Test STAD
 ```sh
 python eval.py --config /args.exp_dir/args.dataset_choice/args.dir_name/config.yaml
 ```
-
-
-### **Pretrained Models**
-
-The checkpoints for the pretrained models on the two datasets can be found in the checkpoints folder.
-To evaluate them follow the following steps:
-1. Copy the config file /config/[Avenue/STC]/mocodad_test.yaml in the correct checkpoint folder
-2. Update the 'load_ckpt' field with the downloaded ckpt
-3. run 
-    ```sh
-    python eval.py --config `/checkpoints/[Avenue/STC]/pretrained_model/test.yaml]
-    ```
