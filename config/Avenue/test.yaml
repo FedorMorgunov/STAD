@@ -89,10 +89,10 @@ load_tensors: false # if true, load the generated tensors for faster inference
 
 ## Important parameters
 dataset_choice: 'HR-Avenue'
-seg_len: 6 # length of the window (cond+noised) 
+seg_len: 30 # length of the window (cond+noised) 
 vid_res: [640,360]
 batch_size: 4096
-pad_size: 10 # size of the padding
+pad_size: 12 # size of the padding
 
 ## Other parameters
 headless: false # remove the keypoints of the head
