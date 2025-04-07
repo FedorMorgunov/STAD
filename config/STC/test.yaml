@@ -16,7 +16,7 @@ dir_name: 'train_experiment_a100' # name of the directory of the current experim
 data_dir: '/content/drive/MyDrive/Fedor - Final Year Project/Datasets/HR-ShanghaiTech' # path to the data
 exp_dir: './checkpoints' # path to the directory that will contain the current experiment directory
 test_path: '/content/drive/MyDrive/Fedor - Final Year Project/Datasets/HR-ShanghaiTech/testing/test_frame_mask' # path to the test data
-load_ckpt: 'epoch=29-step=24480.ckpt' # name of the checkpoint to load at inference time
+load_ckpt: 'epoch=90-step=74256.ckpt' # name of the checkpoint to load at inference time
 create_experiment_dir: false # if true, create a new directory for the current experiment
 
 ## WANDB configuration
@@ -55,7 +55,7 @@ channels: [512,256,512] # channels for the encoder
 noise_steps: 10 # how many diffusion steps to perform
 
 ### Optimizer and scheduler's configuration
-n_epochs: 30
+n_epochs: 100
 opt_lr: 0.001
 
 ## Losses' configuration
@@ -90,7 +90,7 @@ load_tensors: false # if true, load the generated tensors for faster inference
 
 ## Important parameters
 dataset_choice: 'HR-STC'
-seg_len: 6 # length of the window (cond+noised) 
+seg_len: 10 # length of the window (cond+noised) 
 vid_res: [856,480]
 batch_size: 4096
 pad_size: -1 # size of the padding 
