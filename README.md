@@ -16,8 +16,8 @@ Place the extracted folder in a `./data` folder and change the configs according
 ### **Training** 
 
 > [!IMPORTANT]
-> Before starting training, make sure to adjust the `batch_size` parameter in the config according to your available GPU memory.
-(A larger batch size requires more VRAM.)
+> Before starting training or testing, make sure to adjust the `batch_size` parameter in the config according to your available GPU memory.
+> (A larger batch size requires more VRAM.)
 
 In each config file you can set the hyperparameters. The default parameters achieve the best results reported in the paper.
 
