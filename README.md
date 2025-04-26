@@ -2,6 +2,12 @@
 
 ## Setup
 
+> [!NOTE]
+> If running in Google Colab, install PyTorch Lightning first:
+> ```sh
+> pip install pytorch-lightning
+> ```
+
 ### Datasets
 You can download the extracted poses for the datasets HR-Avenue and HR-ShanghaiTech from the [GDRive](https://drive.google.com/drive/folders/1aUDiyi2FCc6nKTNuhMvpGG_zLZzMMc83?usp=drive_link).
 
