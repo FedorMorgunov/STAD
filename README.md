@@ -15,6 +15,10 @@ Place the extracted folder in a `./data` folder and change the configs according
 
 ### **Training** 
 
+> [!IMPORTANT]
+> Before starting training, make sure to adjust the `batch_size` parameter in the config according to your available GPU memory.
+(A larger batch size requires more VRAM.)
+
 In each config file you can set the hyperparameters. The default parameters achieve the best results reported in the paper.
 
 Update the args 'data_dir', 'test_path', 'dataset_path_to_robust' with the path where you stored the datasets.
