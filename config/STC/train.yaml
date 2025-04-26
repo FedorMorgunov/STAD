@@ -12,10 +12,10 @@ accelerator: 'gpu'
 devices: [0,] # indices of cuda devices to use
 
 ## Paths
-dir_name: 'train_experiment_a100' # name of the directory of the current experiment
-data_dir: '/content/drive/MyDrive/Fedor - Final Year Project/Datasets/HR-ShanghaiTech' # path to the data
+dir_name: 'train_experiment' # name of the directory of the current experiment
+data_dir: './data/HR-ShanghaiTech/' # path to the data
 exp_dir: './checkpoints' # path to the directory that will contain the current experiment directory
-test_path: '/content/drive/MyDrive/Fedor - Final Year Project/Datasets/HR-ShanghaiTech/testing/test_frame_mask' # path to the test data
+test_path: './data/HR-ShanghaiTech/testing/test_frame_mask' # path to the test data
 load_ckpt: '' # name of the checkpoint to load at inference time
 create_experiment_dir: true
 
